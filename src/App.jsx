@@ -32,6 +32,7 @@ const App = () => {
       {/* <Features data={landingPageData.Features} /> */}
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
+      <Testimonials data={landingPageData.Testimonials} />
       <Faq />
       {/* <Gallery /> */}
       {/* <Team data={landingPageData.Team} /> */}

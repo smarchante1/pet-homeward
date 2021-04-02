@@ -40,12 +40,12 @@ p.intro {
 	line-height: 24px;
 }
 a {
-	color: #608dfd;
+	color: #D2BEA2;
 	font-weight: 400;
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #608dfd;
+	color: #D2BEA2;
 }
 ul, ol {
 	list-style: none;
@@ -60,7 +60,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #1E7A46;
+	background: #D2BEA2;
 	margin-bottom: 20px;
 	border: 0;
 }
@@ -98,7 +98,7 @@ hr {
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #FCF7F0 0%, #D2BEA2 100%);
 	content: "";
 	transition: width 0.2s;
 }
@@ -115,7 +115,7 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+	background: linear-gradient(to right, #FCF7F0 0%, #D2BEA2 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
 }
@@ -124,10 +124,10 @@ hr {
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #fff;
-	border-color: #63A298;
+	border-color: #D2BEA2;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #63A298;
+	background-color: #D2BEA2;
 }
 .section-title {
 	margin-bottom: 70px;
@@ -141,7 +141,7 @@ hr {
 .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #CDE1DF 0%, #63A298 100%);
+	background: linear-gradient(to right, #FCF7F0 0%, #D2BEA2 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -155,8 +155,8 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: rgb(26, 26, 26);
-	background-color: #CDE1DF;
-	background-image: linear-gradient(to right, #CDE1DF 0%, #63A298 100%);
+	background-color: #FCF7F0;
+	background-image: linear-gradient(to right, #D2BEA2 0%, #D2BEA2 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -169,7 +169,7 @@ hr {
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
 	background-image: none;
-	background-color: #63A298;
+	background-color: #D2BEA2;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -236,7 +236,7 @@ header .intro-text {
 	height: 100px;
 	padding: 30px 0;
 	border-radius: 50%;
-	background: linear-gradient(to right, #91c6bd 0%, #63A298 100%);
+	background: linear-gradient(to right,#FCF7F0 0%, #D2BEA2 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
 /* About Section */
@@ -251,12 +251,12 @@ header .intro-text {
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
-	margin-top: 60px;
+	margin-top: 290px;
 }
 #about h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #91c6bd 0%, #63A298 100%);
+	background: linear-gradient(to right, #FCF7F0 0%, #D2BEA2 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -271,7 +271,7 @@ header .intro-text {
 #about .about-text li:before {
 	content: '\f00c';
 	font-family: 'FontAwesome';
-	color: #5ca9fb;
+	color: #D2BEA2;
 	font-size: 11px;
 	font-weight: 300;
 	padding-right: 8px;
@@ -290,7 +290,7 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #E9F6F4 0%, #E9F6F4 100%);
+	background: linear-gradient(to right, #FCF7F0 0%, #FCF7F0 100%);
 	color: #fff;
 }
 #services .service-desc {
@@ -314,7 +314,7 @@ header .intro-text {
 	width: 120px;
 	height: 120px;
 	padding: 40px 0;
-	background: linear-gradient(to right, #2e7880 0%, #86d0d3 100%);
+	background: linear-gradient(to right, #A57F51 0%, #ECD9BE 100%);
 	border-radius: 50%;
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
@@ -348,7 +348,7 @@ header .intro-text {
 	text-align: center;
 	margin: 0 auto;
 	color: #fff;
-	background: linear-gradient(to right, rgba(99,114,255,0.8) 0%, rgba(92,169,251,0.8) 100%);
+	background: linear-gradient(to right, #FCF7F0 0%, #D2BEA2 100%);
 	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
@@ -378,7 +378,7 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: #ffffff;
 }
 #testimonials i {
 	color: #e6e6e6;
@@ -435,7 +435,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #E9F6F4 0%, #E9F6F4 100%);
+	background: linear-gradient(to right, #FCF7F0 0%, #FCF7F0 100%);
 	color: rgba(65, 65, 65, 0.75);
 }
 #contact .section-title {
@@ -479,7 +479,7 @@ header .intro-text {
 	border: 2px solid #fff;
 }
 #contact .btn-custom:hover {
-	color: #2e7880;
+	color: #D2BEA2;
 	background: #fff;
 }
 label {
@@ -555,12 +555,12 @@ color: #777;
 	transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-	color: #2e7880;
+	color: #D2BEA2;
 	background: #fff;
 }
 /* Footer Section*/
 #footer {
-	background: #f6f6f6;
+	background: #ffffff;
 	padding: 30px 0;
 }
 #footer p {
@@ -568,10 +568,10 @@ color: #777;
 	font-size: 14px;
 }
 #footer a {
-	color: #608dfd;
+	color: #D2BEA2;
 }
 #footer a:hover {
-	border-bottom: 2px solid #608dfd;
+	border-bottom: 2px solid #D2BEA2;
 }
 
 @media (max-width: 768px) {
@@ -586,21 +586,21 @@ color: #777;
 #form {
 	margin-left: 25%;
 	width: 50%;
-	margin-top: 5%
+	margin-top: 2%
 }
 
-#form-container {
+#survey {
 	padding-left: 80px;
 	padding-top: 50px;
-	background-color: #E9F6F4;
+	background-color: #FCF7F0;
 	margin-left: calc(50% - 50vw);
 	width: 100vw;
-	height: 35%
+	height: 48%
 }
 
 /* Faqs */
 
-#faq-container{
+#faq{
 	margin-top: 8%;
 	margin-bottom: 10%;
 }

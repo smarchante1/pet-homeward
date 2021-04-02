@@ -28,10 +28,10 @@ export const Faq = (props) => {
     const classes = useStyles();
 
     return (
-      <div id='faq-container' className='text-center'>
+      <div id='faq' className='text-center'>
         <div className='container'>
           <div className='section-title'>
-            <h2>FAQ's</h2>
+            <h2 id='faq-heading'>FAQ's</h2>
           </div>
           <div id='accordion-container' className='row'>
             <Accordion className={classes.hideBorder}>
